@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the Adacitin login page with valid cedentials",
+        "description": "",
+        "id": "verify-the-adacitin-login-page;verify-the-adacitin-login-page-with-valid-cedentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10387911100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Adacitin login page",
+            "match": {
+              "location": "OneDAndTwoD.user_is_on_Adacitin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 969421000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid UserName and PassWord",
+            "match": {
+              "location": "OneDAndTwoD.user_enters_the_valid_UserName_and_PassWord(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "krishna25",
+                  "krish2510"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click on login button",
+            "match": {
+              "location": "OneDAndTwoD.user_should_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1503315800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Search hotel page enter the Location,Hotels,Number of rooms,Check in date,Check out date,Adults per room",
+            "match": {
+              "location": "OneDAndTwoD.user_is_on_Search_hotel_page_enter_the_Location_Hotels_Number_of_rooms_Check_in_date_Check_out_date_Adults_per_room(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Hervey",
+                  "1 - One",
+                  "01/01/2021",
+                  "02/01/2021",
+                  "1 - One"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should click on Search button",
+            "match": {
+              "location": "OneDAndTwoD.user_should_click_on_Search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691281700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click on First button and Continue button",
+            "match": {
+              "location": "OneDAndTwoD.user_should_click_on_First_button_and_Continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1414935100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Book a hotel page enter the First name,Last name,Billing address,Credit card number,Credit card type,Expiry date,Expiry year,cvv number",
+            "match": {
+              "location": "OneDAndTwoD.user_is_on_Book_a_hotel_page_enter_the_First_name_Last_name_Billing_address_Credit_card_number_Credit_card_type_Expiry_date_Expiry_year_cvv_number(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Krishnan",
+                  "Srinivasan",
+                  "Chennai",
+                  "1564239856421356",
+                  "VISA",
+                  "February",
+                  "2022",
+                  "555"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Should note the Order no",
+            "match": {
+              "location": "OneDAndTwoD.user_Should_note_the_Order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adacitin login page",
+    "description": "",
+    "id": "verify-the-adacitin-login-page",
+    "keyword": "Feature",
+    "uri": "D:/Eclipse/Cucumbr1Pro/src/test/resources/Adacitin.feature",
+    "tags": []
+  }
+]
